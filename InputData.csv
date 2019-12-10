@@ -3,13 +3,13 @@ id,lable,value,colour
 1,CCUS,0,gray
 2,Coal,3.7,black
 3,Gas,69.4,lightgoldenrodyellow
-4,Hydro,6.1,blue
-5,Interconnectors,34.8,yellow
-6,Marine,0.1,lightblue
-7,Nuclear,61,lightgreen
-8,Offshore Wind,38.5,cornsilk
-9,Onshore Wind,30.7,cornsilk
-10,Other Renew,15.1,purple
+4,Hydro,6.1,#7cbdd1
+5,Interconnectors,34.8,#ee6261
+6,Marine,0.1,#a9d598
+7,Nuclear,61,#a9d598
+8,Offshore Wind,38.5,#ffe189
+9,Onshore Wind,30.7,#ffe189
+10,Other Renew,15.1,#ab8ac1
 11,Other Thermal,0,red
-12,Solar,12.7,orange
+12,Solar,12.7,#fc8d58
 13,Waste,10.1,brown
