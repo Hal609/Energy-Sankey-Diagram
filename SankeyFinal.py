@@ -113,6 +113,44 @@ for i in range(len(values)):
     if not is_number(values[i]):
         linkColour[i] = colours[int(sources[i])]
 '''
+for i in range(len(colours)): #Make begining of link darker
+    if colours[i][0] == "#":
+
+
+        r = int(colours[i][1:3], 16)
+        g = int(colours[i][3:5], 16)
+        b = int(colours[i][5:7], 16)
+
+        brightnessScale = float(r+g+b)/1000*1.4
+        '''
+        r *= brightnessScale
+        g *= brightnessScale
+        b *= brightnessScale
+        '''
+
+
+        if r > g and r > b: #Reduces only weaker colours
+            #r *= brightnessScale*1.4
+            g *= brightnessScale
+            b *= brightnessScale
+        elif g > r and g > b:
+            r *= brightnessScale
+            #g *= brightnessScale*1.4
+            b *= brightnessScale
+        elif b > r and b > g:
+            r *= brightnessScale
+            g *= brightnessScale
+            #b *= brightnessScale*1.4
+        else:
+            r *= brightnessScale
+            g *= brightnessScale
+            b *= brightnessScale
+
+
+
+        temp = str(hex(int(r)))[2:] + str(hex(int(g)))[2:] + str(hex(int(b)))[2:]
+
+        colours[i] = "#" + temp
 
 fig = go.Figure(data=[go.Sankey(
     domain = dict(
@@ -120,7 +158,7 @@ fig = go.Figure(data=[go.Sankey(
       y =  [0,1]
     ),
     orientation = "h",
-    valueformat = ".0f",
+    valueformat = ".00f",
     node = dict(
       pad = 15,
       thickness = 20,
@@ -135,6 +173,9 @@ fig = go.Figure(data=[go.Sankey(
       color = linkColour
   ))])
 
-
-fig.update_layout(title_text="Energy Diagram", font_size=10)
+fig.update_layout(title_text="Energy Diagram", font = dict(
+      size = 14,
+      color = 'black',
+      family = "Arial"
+    ))
 fig.show()

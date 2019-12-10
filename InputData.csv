@@ -1,8 +1,8 @@
 id,lable,value,colour
-0,Biomass,27.8,green
+0,Biomass,27.8,#ff89be
 1,CCUS,0,gray
-2,Coal,3.7,black
-3,Gas,69.4,lightgoldenrodyellow
+2,Coal,3.7,#535353
+3,Gas,69.4,#ab806a
 4,Hydro,6.1,#7cbdd1
 5,Interconnectors,34.8,#ee6261
 6,Marine,0.1,#a9d598
