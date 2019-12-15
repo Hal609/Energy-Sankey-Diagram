@@ -36,7 +36,7 @@ def loadLinkData(fileName):
             targets.append(data.values[i,1])
 
             if not is_number(data.values[i,2]):
-                if int(data.values[i,0]) < 13:
+                if int(data.values[i,0]) < 14:
                     values.append(sourceValues[int(data.values[i,0])])
                 else:
                     values.append(sourceValues[int(data.values[i,1])])
@@ -47,7 +47,6 @@ def loadLinkData(fileName):
                 linkColour.append("lightgray")
             else:
                 linkColour.append(data.values[i,3])
-
 
 
 id = []
