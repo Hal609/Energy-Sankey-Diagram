@@ -76,6 +76,13 @@ loadLinkData('LinkData.csv')
 loadCat("Renewables.csv", Renewables)
 loadCat("FossilFuels.csv", FossilFuels)
 
+for i in range(14,43):
+    print(i)
+    print(values[i])
+    if values[i] < 86:
+        values[i] = 0
+        print(i)
+
 '''
 #Catagorise renewalbes
 for i in range(len(sources)):
