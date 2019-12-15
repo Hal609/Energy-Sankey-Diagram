@@ -1,31 +1,12 @@
 id,lable,value,colour
-14,Commercial District Heat,0.7885008808,#d9ead3
-15,Commercial EV Charging,1.428062706,#d9ead4
-16,Commerical demand including District Heat and Rail,768,#d9ead5
-17,Commerical Rail Traction,42,#d9ead6
-18,GB Transmission & Distribution Losses,181,#a2c4c9
-19,Industrial & Commercial Transmission Connected Customers,44,#a2c4c10
-20,Industrial Demand including CCUS & SMR,731,#a2c4c11
-21,Industrial Electrolysis for Hydrogen,0.4731005285,#a2c4c12
-22,Residential Air Conditioning,1.27036253,#f4cccc
-23,Residential Air Conditioning - Millions,0.002549486181,#f4cccc
-24,Residential Appliances,561,#f4cccc
-25,Residential Cold Appliance Demand (Unscaled),85.92031265,#f4cccc
-26,Residential Computing Demand (Unscaled),30.0156002,#f4cccc
-27,Residential Consumer Electronics Demand (Unscaled),88.91661599,#f4cccc
-28,Residential Cooking Demand (Unscaled),106.9557639,#f4cccc
-29,Residential District Heat,2.934975501,#f4cccc
-30,Residential Electricity Smart Meters Millions,0.09427842198,#f4cccc
-31,Residential EV Charging,4.827377615,#f4cccc
-32,Residential Heat Pumps,9,#f4cccc
-33,Residential Light,80,#f4cccc
-34,Residential Light Demand (Unscaled),86.31456309,#f4cccc
-35,Residential Resistive Heat,259,#f4cccc
-36,Residential Resistive Hot Water,24,#f4cccc
-37,Residential Wet Demand (Unscaled),132.1877921,#f4cccc
-38,Total Residential Appliance Demand (unscaled),694.2487422,#f4cccc
-39,ASHP,7.368102675,#f4cccc
-40,Electric storage heater,283,#f4cccc
-41,GSHP,0.7797397599,#f4cccc
-42,Hybrid heat pump gas boiler,1.200273563,#f4cccc
-43,District Heat,2.934975501,#f4cccc
+14,Commerical demand including District Heat and Rail,768,#d9ead5
+15,GB Transmission & Distribution Losses,181,#a2c4c9
+16,Industrial Demand including CCUS & SMR,731,#a2c4c11
+17,Residential Appliances,561,#f4cccc
+18,Residential Cold Appliance Demand (Unscaled),85.92031265,#f4cccc
+19,Residential Consumer Electronics Demand (Unscaled),88.91661599,#f4cccc
+20,Residential Cooking Demand (Unscaled),106.9557639,#f4cccc
+21,Residential Light Demand (Unscaled),86.31456309,#f4cccc
+22,Residential Resistive Heat,259,#f4cccc
+23,Residential Wet Demand (Unscaled),132.1877921,#f4cccc
+24,Total Residential Appliance Demand (unscaled),694.2487422,#f4cccc
