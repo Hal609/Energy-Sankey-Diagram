@@ -37,12 +37,14 @@ def loadLinkData(fileName):
 
             if not is_number(data.values[i,2]): #if value is not a number
                 if data.values[i,2] == "all":
-                    if int(data.values[i,0]) < 14: #if id is input
+                    if int(data.values[i,0]) < 15: #if id is input
                         values.append(sourceValues[int(data.values[i,0])])
                     else:
                         values.append(sourceValues[int(data.values[i,1])])
-                else:
+                elif data.values[i,2] == "outputSource":
                     values.append(sourceValues[int(data.values[i,1])])
+                elif data.values[i,2][0:2] == "id":
+                    values.append(sourceValues[int(data.values[i,2][2:4])])
             else:
                 values.append(data.values[i,2])
 
@@ -121,7 +123,6 @@ for i in range(len(values)):
 '''
 for i in range(len(colours)): #Make begining of link darker
     if colours[i][0] == "#":
-
 
         r = int(colours[i][1:3], 16)
         g = int(colours[i][3:5], 16)
