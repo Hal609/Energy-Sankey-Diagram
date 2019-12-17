@@ -15,17 +15,11 @@ id,lable,value,colour
 27,Residential Resistive Hot Water,0,#f4cccc
 28,Annual gas demand from industry,1316,#a2c4c9
 29,Annual gas demand from the commercial sector,422,#fff2cc
-30,Hydrogen Production - Natural Gas Demand,-,gray
+30,Hydrogen Production - Natural Gas Demand,0,gray
 31,Total gas demand (NTS and LDZ connected) for electricity generation,1508,gray
-32,Gas demand for transport,1,gray
+32,Gas demand for transport,0,gray
 33,Total residential gas demand,2978,#f4cccc
-34,Gas boiler,2862,#f4cccc
-35,Gas heat pump absorption,0,#f4cccc
-36,Hybrid heat pump gas boiler,0,#f4cccc
-37,Micro-CHPs (inc Fuel Cells),0,#f4cccc
-38,District Heat,114,#f4cccc
-39,Gas boiler plus solar thermal,0,#f4cccc
-40,Electricity Vehicles,1000,yellow
-41,Hydrogen Vehicles,0,blue
-42,Natural Gas Vehicles,0,gray
-43,Petrol/Diesel Vehicles,392000,black
+34,Electricity Vehicles,1000,yellow
+35,Hydrogen Vehicles,0,blue
+36,Natural Gas Vehicles,0,gray
+37,Petrol/Diesel Vehicles,392000,black
