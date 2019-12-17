@@ -1,25 +1,25 @@
 id,lable,value,colour
-14,Commercial EV Charging,0,#fff2cc
-15,Commerical demand including District Heat and Rail,768,#fff2cc
-16,GB Transmission & Distribution Losses,181,#a2c4c9
-17,Industrial & Commercial Transmission Connected Customers,44,#a2c4c9
-18,Industrial Demand including CCUS & SMR,731,#a2c4c9
-19,Industrial Electrolysis for Hydrogen,0,gray
-20,Residential Air Conditioning,0,#f4cccc
-21,Residential Appliances,561,#f4cccc
-22,Residential District Heat,0,#f4cccc
-23,Residential EV Charging,0,#f4cccc
-24,Residential Heat Pumps,0,#f4cccc
-25,Residential Light,80,#f4cccc
-26,Residential Resistive Heat,259,#f4cccc
-27,Residential Resistive Hot Water,0,#f4cccc
-28,Annual gas demand from industry,1316,#a2c4c9
-29,Annual gas demand from the commercial sector,422,#fff2cc
-30,Hydrogen Production - Natural Gas Demand,0,gray
-31,Total gas demand (NTS and LDZ connected) for electricity generation,1508,gray
-32,Gas demand for transport,0,gray
-33,Total residential gas demand,2978,#f4cccc
-34,Electricity Vehicles,1000,yellow
-35,Hydrogen Vehicles,0,blue
-36,Natural Gas Vehicles,0,gray
-37,Petrol/Diesel Vehicles,392000,black
+15,Commercial EV Charging,0,#fff2cc
+16,Commerical demand including District Heat and Rail,768,#fff2cc
+17,GB Transmission & Distribution Losses,181,#a2c4c9
+18,Industrial & Commercial Transmission Connected Customers,44,#a2c4c9
+19,Industrial Demand including CCUS & SMR,731,#a2c4c9
+20,Industrial Electrolysis for Hydrogen,0,gray
+21,Residential Air Conditioning,0,#f4cccc
+22,Residential Appliances,561,#f4cccc
+23,Residential District Heat,0,#f4cccc
+24,Residential EV Charging,0,#f4cccc
+25,Residential Heat Pumps,0,#f4cccc
+26,Residential Light,80,#f4cccc
+27,Residential Resistive Heat,259,#f4cccc
+28,Residential Resistive Hot Water,0,#f4cccc
+29,Annual gas demand from industry,1316,#a2c4c9
+30,Annual gas demand from the commercial sector,422,#fff2cc
+31,Hydrogen Production - Natural Gas Demand,0,gray
+32,Total gas demand (NTS and LDZ connected) for electricity generation,1508,gray
+33,Gas demand for transport,0,gray
+34,Total residential gas demand,2978,#f4cccc
+35,Electricity Vehicles,1000,yellow
+36,Hydrogen Vehicles,0,blue
+37,Natural Gas Vehicles,0,gray
+38,Petrol/Diesel Vehicles,3434,black

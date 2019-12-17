@@ -78,9 +78,11 @@ loadLinkData('LinkData.csv')
 loadCat("Renewables.csv", Renewables)
 loadCat("FossilFuels.csv", FossilFuels)
 
-print(sourceValues)
-
 '''
+for i in range(len(lables)):
+    lables[i] = ""
+
+
 #Catagorise renewalbes
 for i in range(len(sources)):
     if sources[i] == sources[i]:
