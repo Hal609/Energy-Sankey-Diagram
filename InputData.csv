@@ -1,15 +1,15 @@
 id,lable,value,colour
-0,Biomass,243.559161,#ff89be
-1,CCUS,0,gray
-2,Coal,32.41614732,#535353
-3,Gas,608.0217903,#ab806a
-4,Hydro,53.44283748,#7cbdd1
-5,Interconnectors,304.8870073,#ee6261
-6,Marine,0.8761120898,#a9d598
-7,Nuclear,534.4283748,#a9d598
-8,Offshore Wind,337.3031546,#ffe189
-9,Onshore Wind,268.9664116,#ffe189
-10,Other Renew,132.2929256,#ab8ac1
-11,Other Thermal,0,red
-12,Solar,111.2662354,#fc8d58
-13,Waste,88.48732107,brown
+0,Biomass,243.56,#ff89be
+1,CCUS,0.00,gray
+2,Coal,0.00,#535353
+3,Gas,608.02,#ab806a
+4,Hydro,53.44,#7cbdd1
+5,Interconnectors,304.89,#ee6261
+6,Marine,0.00,#a9d598
+7,Nuclear,534.43,#a9d598
+8,Offshore Wind,337.30,#ffe189
+9,Onshore Wind,268.97,#ffe189
+10,Other Renew,132.29,#ab8ac1
+11,Other Thermal,0.00,red
+12,Solar,111.27,#fc8d58
+13,Waste,88.49,brown

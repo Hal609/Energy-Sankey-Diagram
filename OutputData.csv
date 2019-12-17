@@ -1,20 +1,31 @@
 id,lable,value,colour
-14,Commerical demand including District Heat and Rail,768,#d9ead5
-15,GB Transmission & Distribution Losses,181,#a2c4c9
-16,Industrial Demand including CCUS & SMR,731,#a2c4c9
-17,Residential Appliances,561,#f4cccc
-18,Residential Cold Appliance Demand (Unscaled),85.92031265,#f4cccc
-19,Residential Consumer Electronics Demand (Unscaled),88.91661599,#f4cccc
-20,Residential Cooking Demand (Unscaled),106.9557639,#f4cccc
-21,Residential Light Demand (Unscaled),86.31456309,#f4cccc
-22,Residential Resistive Heat,259,#f4cccc
-23,Residential Wet Demand (Unscaled),132.1877921,#f4cccc
-24,Total Residential Appliance Demand (unscaled),694.2487422,#f4cccc
-25,Total residential,2978,#f4cccc
-26,Total for electricity generation,1508,gray
-27,NTS connected power plants,1213,#a2c4c9
-28,Moffat exports,389,#a2c4c9
-29,IUK Exports,635,gray
-30,Commercial sector ,422,#d9ead3
-31,Industry ,1592,#a2c4c9
-32,Gas boiler,2862,#f4cccc
+14,Commercial EV Charging,0,#fff2cc
+15,Commerical demand including District Heat and Rail,768,#fff2cc
+16,GB Transmission & Distribution Losses,181,#a2c4c9
+17,Industrial & Commercial Transmission Connected Customers,44,#a2c4c9
+18,Industrial Demand including CCUS & SMR,731,#a2c4c9
+19,Industrial Electrolysis for Hydrogen,0,gray
+20,Residential Air Conditioning,0,#f4cccc
+21,Residential Appliances,561,#f4cccc
+22,Residential District Heat,0,#f4cccc
+23,Residential EV Charging,0,#f4cccc
+24,Residential Heat Pumps,0,#f4cccc
+25,Residential Light,80,#f4cccc
+26,Residential Resistive Heat,259,#f4cccc
+27,Residential Resistive Hot Water,0,#f4cccc
+28,Annual gas demand from industry,1316,#a2c4c9
+29,Annual gas demand from the commercial sector,422,#fff2cc
+30,Hydrogen Production - Natural Gas Demand,-,gray
+31,Total gas demand (NTS and LDZ connected) for electricity generation,1508,gray
+32,Gas demand for transport,1,gray
+33,Total residential gas demand,2978,#f4cccc
+34,Gas boiler,2862,#f4cccc
+35,Gas heat pump absorption,0,#f4cccc
+36,Hybrid heat pump gas boiler,0,#f4cccc
+37,Micro-CHPs (inc Fuel Cells),0,#f4cccc
+38,District Heat,114,#f4cccc
+39,Gas boiler plus solar thermal,0,#f4cccc
+40,Electricity Vehicles,1000,yellow
+41,Hydrogen Vehicles,0,blue
+42,Natural Gas Vehicles,0,gray
+43,Petrol/Diesel Vehicles,392000,black

@@ -30,14 +30,17 @@ def loadCat(fileName, cat):
 def loadLinkData(fileName):
     fileName = "/home/hal/Documents/PythonScripts/Sankey/" + fileName
     data = pd.read_csv(fileName, sep=',',header=None)
-    for i in range(len(data.values)):
-        if is_number(data.values[i,0]):
-            sources.append(data.values[i,0])
+    for i in range(len(data.values)): #loop through all entries
+        if is_number(data.values[i,0]): #if source is number
+            sources.append(data.values[i,0]) #add source and target from file to list
             targets.append(data.values[i,1])
 
-            if not is_number(data.values[i,2]):
-                if int(data.values[i,0]) < 14:
-                    values.append(sourceValues[int(data.values[i,0])])
+            if not is_number(data.values[i,2]): #if value is not a number
+                if data.values[i,2] == "all":
+                    if int(data.values[i,0]) < 14: #if id is input
+                        values.append(sourceValues[int(data.values[i,0])])
+                    else:
+                        values.append(sourceValues[int(data.values[i,1])])
                 else:
                     values.append(sourceValues[int(data.values[i,1])])
             else:
@@ -74,6 +77,8 @@ loadLinkData('LinkData.csv')
 
 loadCat("Renewables.csv", Renewables)
 loadCat("FossilFuels.csv", FossilFuels)
+
+print(sourceValues)
 
 '''
 #Catagorise renewalbes
