@@ -1,0 +1,25 @@
+id,lable,value,colour
+15,Commercial EV Charging,59,#fff2cc
+16,Commerical demand including District Heat and Rail,703,#fff2cc
+17,GB Transmission & Distribution Losses,211,#a2c4c9
+18,Industrial & Commercial Transmission Connected Customers,0,#a2c4c9
+19,Industrial Demand including CCUS & SMR,792,#a2c4c9
+20,Industrial Electrolysis for Hydrogen,60,#6fa8dc
+21,Residential Air Conditioning,0,#f4cccc
+22,Residential Appliances,515,#f4cccc
+23,Residential District Heat,0,#f4cccc
+24,Residential EV Charging,388,#f4cccc
+25,Residential Heat Pumps,207,#f4cccc
+26,Residential Light,0,#f4cccc
+27,Residential Resistive Heat,198,#f4cccc
+28,Residential Resistive Hot Water,0,#f4cccc
+29,Annual gas demand from industry,1303,#a2c4c9
+30,Annual gas demand from the commercial sector,368,#fff2cc
+31,Hydrogen Production - Natural Gas Demand,493,#6fa8dc
+32,Total gas demand (NTS and LDZ connected) for electricity generation,291,gray
+33,Gas demand for transport,0,gray
+34,Total residential gas demand,2195,#f4cccc
+35,Electricity Vehicles,445,#ffd966
+36,Hydrogen Vehicles,36,#6fa8dc
+37,Natural Gas Vehicles,0,gray
+38,Petrol/Diesel Vehicles,1601,black

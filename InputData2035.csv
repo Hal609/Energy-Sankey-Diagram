@@ -1,0 +1,16 @@
+id,lable,value,colour
+0,Biomass,106,#ff89be
+1,CCUS,68,gray
+2,Coal,0,#535353
+3,Gas,0,#ab806a
+4,Hydro,60,#7cbdd1
+5,Interconnectors,0,#ee6261
+6,Marine,51,#a9d598
+7,Nuclear,520,#a9d598
+8,Offshore Wind,1443,#ffe189
+9,Onshore Wind,460,#ffe189
+10,Other Renew,188,#ab8ac1
+11,Other Thermal,0,red
+12,Solar,300,#fc8d58
+13,Waste,64,brown
+14,Oil,1601,#535353

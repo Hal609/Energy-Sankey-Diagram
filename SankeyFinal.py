@@ -71,11 +71,13 @@ FossilFuels = []
 
 sumRenew = 0
 
-loadData('InputData2050.csv')
-loadData('OutputData2050.csv')
+year = "2035"
+
+loadData('InputData' + year + '.csv')
+loadData('OutputData' + year + '.csv')
 loadData('Categories.csv')
 
-loadLinkData('LinkData2050.csv')
+loadLinkData('LinkData' + year + '.csv')
 
 loadCat("Renewables.csv", Renewables)
 loadCat("FossilFuels.csv", FossilFuels)
