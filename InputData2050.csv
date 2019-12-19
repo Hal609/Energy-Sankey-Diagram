@@ -2,9 +2,9 @@ id,lable,value,colour
 0,Biomass,100,#ff89be
 1,CCUS,107,gray
 2,Coal,0,#535353
-3,Gas,50,#ab806a
+3,Gas,50,#f7e7ae
 4,Hydro,63,#7cbdd1
-5,Interconnectors,-150,#ee6261
+5,Interconnectors,150,#ee6261
 6,Marine,123,#a9d598
 7,Nuclear,833,#a9d598
 8,Offshore Wind,1896,#ffe189
