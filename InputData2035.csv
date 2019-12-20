@@ -2,7 +2,7 @@ id,lable,value,colour
 0,Biomass,106,#ff89be
 1,CCUS,68,gray
 2,Coal,0,#535353
-3,Gas,0,#ab806a
+3,Gas,0,#f7e7ae
 4,Hydro,60,#7cbdd1
 5,Interconnectors,0,#ee6261
 6,Marine,51,#a9d598

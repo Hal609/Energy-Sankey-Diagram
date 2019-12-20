@@ -71,11 +71,11 @@ FossilFuels = []
 
 sumRenew = 0
 
-year = "2035"
+year = "2019"
 
 loadData('InputData' + year + '.csv')
 loadData('OutputData' + year + '.csv')
-loadData('Categories.csv')
+loadData('Categories' + year + '.csv')
 
 loadLinkData('LinkData' + year + '.csv')
 
